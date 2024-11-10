@@ -4,7 +4,7 @@ import java.net.*;
 public class stopWait_server {
     public static void main(String[] args) throws IOException {
         ServerSocket serverSocket = new ServerSocket(8888);
-        System.out.println("server connected, Waiting for connection...");
+        System.out.println("server Started, Waiting for connection...");
         Socket socket = serverSocket.accept();
         BufferedReader br = new BufferedReader(new InputStreamReader(socket.getInputStream()));
         PrintWriter pw = new PrintWriter(socket.getOutputStream(), true);

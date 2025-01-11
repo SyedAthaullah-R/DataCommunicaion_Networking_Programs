@@ -9,6 +9,7 @@ public class bit_tuffing_unStuffing {
             if(bit == '1'){
                 count++;
             }
+                
             else{
                 count = 0;
             }

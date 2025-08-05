@@ -19,11 +19,11 @@ public class downlaod_image {
             fos.close();
             System.out.println("Image downloaded successfully "+fileLocation);
         }  
-            
         else{
             System.out.println("Image download failed");
         } 
         conn.disconnect();
     }
 }
+
 
